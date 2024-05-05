@@ -1,0 +1,16 @@
+comparator are for multiple sorting logic bina us class ko change kiye multiple logic bna skte hai 
+public int compare(Student2 s1, Student2 s2) {
+        // Compare Student2s based on their age
+        return Integer.compare(s1.getAge(), s2.getAge());
+    }
+
+
+
+
+
+comparable me usi class me change krna hai to ek baar me ek hi logic ho payega 
+ public int compareTo(Student otherStudent) {
+        // Compare students based on their age
+        return Integer.compare(this.age, otherStudent.age);
+    }
+

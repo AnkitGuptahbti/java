@@ -1,0 +1,3 @@
+Stream API is basically perform bulk operations and process the objects of collection
+
+Streams reduced the code length

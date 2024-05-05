@@ -1,0 +1,25 @@
+lamda is anonymous function //lawaris type no name
+//ananyous class_>go deep
+
+anonymous function =no name
+                    No modifier
+                    No return type
+
+public void fun(){
+    syso("kjh);
+}
+
+
+it will get converted into
+
+()->{
+
+}
+
+
+benefits 
+1-reduce line  of code. but only BE USED WITH FUNCTIONAL INTERFACE
+2-sequential and parrallel execition support by passing behavior as an argument in method.(fun ko an arg dusre fun me pass kr sakte hai)TO LAMDA ANE SE JAVA INSTEAD OF OOP ITS ALSO SHOW FUNCTINAL PROGRAMMING(KYOKI FUN KO KO PASS AS ARG IN METHOD) 
+3-to call lamda we require functinal interfavce 
+4-lamda udef to implement functinal interfavce in very simple and short maner
+

@@ -1,0 +1,5 @@
+making default method in parent ,not need to give definition in child ,isse herarchy mainteain rhegi if you wnat use otherwise not need to overrride he the default'
+defualt nhi rhta to heririchu break hoti,kyoki bacche ko na chahte hue bhi useko overrride krna pd rha hai
+
+
+//ab agar hu, chahte hai parent ke pass body bhhi ho aur koi baccha usse overrrode na kr paye then use static

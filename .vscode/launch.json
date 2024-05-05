@@ -1,0 +1,406 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "D_Permutation_Game",
+      "request": "launch",
+      "mainClass": "D_Permutation_Game",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "Pri",
+      "request": "launch",
+      "mainClass": "Pri",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "Solution",
+      "request": "launch",
+      "mainClass": "Solution",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "TextFileConverter",
+      "request": "launch",
+      "mainClass": "TextFileConverter",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "Asd",
+      "request": "launch",
+      "mainClass": "Asd",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "CapitalizeTextFile",
+      "request": "launch",
+      "mainClass": "CapitalizeTextFile",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Int.MultiThreading.Main",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "XYZ",
+      "request": "launch",
+      "mainClass": "XYZ",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "InnerSolution",
+      "request": "launch",
+      "mainClass": "InnerSolution",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "ThreadExample",
+      "request": "launch",
+      "mainClass": "ThreadExample",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "ankit",
+      "request": "launch",
+      "mainClass": "ankit",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "D_Inaccurate_Subsequence_Search",
+      "request": "launch",
+      "mainClass": "D_Inaccurate_Subsequence_Search",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "C_Inhabitant_of_the_Deep_Sea",
+      "request": "launch",
+      "mainClass": "C_Inhabitant_of_the_Deep_Sea",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "D_Product_of_Binary_Decimals",
+      "request": "launch",
+      "mainClass": "D_Product_of_Binary_Decimals",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "B_Array_Fix",
+      "request": "launch",
+      "mainClass": "B_Array_Fix",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "A_Special_Characters",
+      "request": "launch",
+      "mainClass": "A_Special_Characters",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "D_Rudolf_and_the_Ball_Game",
+      "request": "launch",
+      "mainClass": "D_Rudolf_and_the_Ball_Game",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "sn.Main",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Int.ImplementQueue.Main",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Int.PlayingWithClassAandB.Main",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "Main2",
+      "request": "launch",
+      "mainClass": "Int.ComperableAndComperator.Main2",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "Main1",
+      "request": "launch",
+      "mainClass": "Int.ComperableAndComperator.Main1",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "StreamMain1",
+      "request": "launch",
+      "mainClass": "StreamMain1",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Int.InterfaceMehtod.Main",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "ThreadDemo",
+      "request": "launch",
+      "mainClass": "Int.LamdaExpression.Thread.ThreadDemo",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "ZMain",
+      "request": "launch",
+      "mainClass": "Int.LamdaExpression.ZMain",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Int.LamdaExpression.Main",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Int.GenericsClass.Main",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "ZRND.MultiThreading.Main",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "java2_1cda07c0"
+    },
+    {
+      "type": "java",
+      "name": "sdsdfas",
+      "request": "launch",
+      "mainClass": "sdsdfas",
+      "projectName": "java2_472f7eeb"
+    },
+    {
+      "type": "java",
+      "name": "MonsterGame",
+      "request": "launch",
+      "mainClass": "MonsterGame",
+      "projectName": "java2_472f7eeb"
+    },
+    {
+      "type": "java",
+      "name": "Honda4",
+      "request": "launch",
+      "mainClass": "Honda4",
+      "projectName": "java2_472f7eeb"
+    },
+    {
+      "type": "java",
+      "name": "Splendor",
+      "request": "launch",
+      "mainClass": "Splendor",
+      "projectName": "java2_472f7eeb"
+    },
+    {
+      "type": "java",
+      "name": "CanStaticMetOveride",
+      "request": "launch",
+      "mainClass": "ZRND.CanStaticMetOveride",
+      "projectName": "java2_472f7eeb"
+    },
+    {
+      "type": "java",
+      "name": "MultipleInInterface",
+      "request": "launch",
+      "mainClass": "ZRND.MultipleInInterface",
+      "projectName": "java2_472f7eeb"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "Test",
+      "projectName": "java2_472f7eeb"
+    },
+    {
+      "type": "java",
+      "name": "D",
+      "request": "launch",
+      "mainClass": "ZRND.D",
+      "projectName": "java2_472f7eeb"
+    },
+    {
+      "type": "java",
+      "name": "C",
+      "request": "launch",
+      "mainClass": "ZRND.C",
+      "projectName": "java2_472f7eeb"
+    },
+    {
+      "type": "java",
+      "name": "TestStaticMethod",
+      "request": "launch",
+      "mainClass": "TestStaticMethod",
+      "projectName": "java2_472f7eeb"
+    },
+    {
+      "type": "java",
+      "name": "xx",
+      "request": "launch",
+      "mainClass": "xx",
+      "projectName": "java2_472f7eeb"
+    },
+    {
+      "type": "java",
+      "name": "A3",
+      "request": "launch",
+      "mainClass": "A3",
+      "projectName": "java2_472f7eeb"
+    },
+    {
+      "type": "java",
+      "name": "Jadu",
+      "request": "launch",
+      "mainClass": "Jadu",
+      "projectName": "java2_472f7eeb"
+    },
+    {
+      "type": "java",
+      "name": "Anki",
+      "request": "launch",
+      "mainClass": "Anki",
+      "projectName": "java2_472f7eeb"
+    },
+    {
+      "type": "java",
+      "name": "BooleanExpressionWays",
+      "request": "launch",
+      "mainClass": "BooleanExpressionWays",
+      "projectName": "java2_472f7eeb"
+    },
+    {
+      "type": "java",
+      "name": "hash",
+      "request": "launch",
+      "mainClass": "sn.hash",
+      "projectName": "java2_472f7eeb"
+    },
+    {
+      "type": "java",
+      "name": "ZAlgo",
+      "request": "launch",
+      "mainClass": "sn.ZAlgo",
+      "projectName": "java2_472f7eeb"
+    },
+    {
+      "type": "java",
+      "name": "ZAlgo",
+      "request": "launch",
+      "mainClass": "ZAlgo",
+      "projectName": "java2_472f7eeb"
+    },
+    {
+      "type": "java",
+      "name": "Attach",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": "<debug port of the debuggee>"
+    },
+    {
+      "name": "Java",
+      "type": "java",
+      "request": "launch",
+      "stopOnEntry": true,
+      "jdkPath": "${env:JAVA_HOME}/bin",
+      "cwd": "${fileDirname}",
+      "startupClass": "${fileBasenameNoExtension}",
+      "classpath": [".", "${fileDirname}"]
+    },
+    {
+      "name": "Java Console App",
+      "type": "java",
+      "request": "launch",
+      "stopOnEntry": true,
+      "jdkPath": "${env:JAVA_HOME}/bin",
+      "cwd": "${fileDirname}",
+      "startupClass": "${fileBasenameNoExtension}",
+      "classpath": [".", "${fileDirname}"],
+      "externalConsole": true
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "DisjointSet",
+      "request": "launch",
+      "mainClass": "DisJointSet.DisjointSet",
+      "projectName": "java2_472f7eeb"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "java2_472f7eeb"
+    },
+    {
+      "type": "java",
+      "name": "ankit",
+      "request": "launch",
+      "mainClass": "ankit",
+      "projectName": "java2_472f7eeb"
+    },
+    {
+      "type": "java",
+      "name": "lpss",
+      "request": "launch",
+      "mainClass": "lpss",
+      "projectName": "java2_472f7eeb"
+    }
+  ]
+}
