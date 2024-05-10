@@ -115,3 +115,6 @@ public class SegmentTree {
     }
 
 }
+
+
+//While omitting this in many cases within the same class doesn't affect functionality, it can impact readability and maintainability. Explicitly using this can help make your code clearer, especially in situations where there might be ambiguity.
