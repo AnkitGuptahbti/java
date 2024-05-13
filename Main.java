@@ -51,6 +51,18 @@ public class Main {
         }
         return graph;
     }
+ private ArrayList<ArrayList<Integer>> buildGraph(int n, int[][] edges) {
+     ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
+        for (int i = 0; i < v; i++)
+            adj.add(new ArrayList<>());
+        for (int it[] : edges) {
+            int u = it[0] - 1;
+            int v_ = it[1] - 1;
+            adj.get(u).add(v_);
+            adj.get(v_).add(u);
+        }
+     return adj;
+ }
 
     public boolean[] findAnswer(int n, int[][] edges) {
 
