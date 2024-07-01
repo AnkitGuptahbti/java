@@ -53,7 +53,7 @@ public class Main {
     }
  private ArrayList<ArrayList<Integer>> buildGraph(int n, int[][] edges) {
      ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
-        for (int i = 0; i < v; i++)
+        for (int i = 0; i < n; i++)
             adj.add(new ArrayList<>());
         for (int it[] : edges) {
             int u = it[0] - 1;
