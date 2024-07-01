@@ -63,6 +63,42 @@ public class Main {
         }
      return adj;
  }
+     private int getDiameter(ArrayList<ArrayList<Integer>> adj, int n) {
+        int depth[] = new int[n];
+        boolean vis[] = new boolean[n];
+        dfs(adj, n, 0, depth, vis);
+        int max_d = -1;
+        int thatnode = -1;
+        for (int i = 0; i < n; i++) {
+            if (max_d < depth[i]) {
+                max_d = depth[i];
+                thatnode = i;
+            }
+        }
+        Arrays.fill(depth, 0);
+        Arrays.fill(vis, false);
+        dfs(adj, n, thatnode, depth, vis);
+        max_d = -1;
+        for (int i = 0; i < n; i++) {
+            if (max_d < depth[i]) {
+                max_d = depth[i];
+            }
+        }
+        return max_d;
+
+    }
+
+    void dfs(ArrayList<ArrayList<Integer>> adj, int n, int node, int depth[], boolean vis[]) {
+        vis[node] = true;
+        for (int it : adj.get(node)) {
+            if (vis[it] == false) {
+                depth[it] = depth[node] + 1;
+                dfs(adj, n, it, depth, vis);
+            }
+        }
+    }
+
+    
 
     public boolean[] findAnswer(int n, int[][] edges) {
 
