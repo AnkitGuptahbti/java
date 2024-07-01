@@ -63,6 +63,7 @@ public class Main {
         }
      return adj;
  }
+    // start>>// finding diameter of graph og given edges
      private int getDiameter(ArrayList<ArrayList<Integer>> adj, int n) {
         int depth[] = new int[n];
         boolean vis[] = new boolean[n];
@@ -97,6 +98,41 @@ public class Main {
             }
         }
     }
+
+    //end >>/////// finding diameter of graph og given edges
+
+
+    //start>>// finding lcs of given edegs tree
+
+    int lcs(adj,int a,int b,int n){
+        int parent[]=new int[n];
+        dfs(adj,-1,vis,parent[]);
+        ArrayList<> list1=path(int a,parent[])
+        
+    }
+    void dfs(adj,int parent,boolean vis[],int parent[]){
+        vis[nod]=true;
+        parent[node]=parent;
+        for (int it : adj.get(node)) {
+            if (vis[it] == false) {
+                dfs(adj, node, vis, parent);
+            }
+        }
+    }
+
+    ArrayList<> path(int node,int parent[]){
+      ArrayList  list=new ...;
+        while(node!=-1){
+            list.add(node);
+            node=parent[node];
+        }
+        Collections.reverse(list)//1 3 5 7
+            return list;
+    )}
+    
+    
+     //end>>// finding lcs of given edegs tree
+    
 
     
 
