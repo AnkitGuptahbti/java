@@ -84,3 +84,18 @@ class SGTree {
         seg[ind] = (seg[2 * ind + 1] & seg[2 * ind + 2]);
     }
 }
+//  void update_tree(int node, int start, int end, int i, int val) {
+// 	if(start > i || end < i) return;
+// 	if(start == i && i == end) {
+// 		tree[node] = val;
+// 		return;
+// 	}
+// 	int c1 = 2 * node + 1, c2 = c1 + 1, m = (start+end)/2;
+
+   
+// 	update_tree(c1, start, m, i, val);
+
+// 	update_tree(c2, m+1, end, i, val);
+ 
+// 	tree[node] = tree[c1] & tree[c2] ;
+// }
