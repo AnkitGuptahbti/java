@@ -69,8 +69,6 @@ class SGTree {
     }
 
     public void update(int ind, int low, int high, int i, int val) {
-        if (low > ind || high < ind)
-            return;
         if (low == high) {
             seg[ind] = val;
             return;
