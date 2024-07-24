@@ -132,6 +132,43 @@ public class Main {
     
     
      //end>>// finding lcs of given edegs tree
+
+
+    /////////////lowerbound and uppar bound/////////////
+
+
+private static int lowerBound(List<Integer> list, int target) {
+        int low = 0, high = list.size();
+        while (low < high) {
+            int mid = (low + high) / 2;
+            if (list.get(mid) < target) {
+                low = mid + 1;
+            } else {
+                high = mid;
+            }
+        }
+        return low;
+    }
+
+    private static int upperBound(List<Integer> list, int target) {
+        int low = 0, high = list.size();
+        while (low < high) {
+            int mid = (low + high) / 2;
+            if (list.get(mid) <= target) {
+                low = mid + 1;
+            } else {
+                high = mid;
+            }
+        }
+        return low;
+    }
+
+
+
+
+
+
+    ///////////////////////////////////////////
     
 
     
