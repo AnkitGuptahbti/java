@@ -6,7 +6,7 @@ public class ZAlgo {
         String txt = "abaaa";
         String pat = "aa";
         int matches = totalMatches(pat, txt);
-        System.out.println("Total matches: " + matches); // Output: Total matches: 4
+        System.out.println("Total matches: " + matches); // Output: Total matches: 2
     }
 
     public static int[] zFunction(String s) {
