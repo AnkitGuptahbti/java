@@ -1,5 +1,7 @@
 package sn;
-
+//segment tree is noting but a data structure which store the resultant of a given range in given index in an array.
+//now it i want to search [3-8] need to look at tree because none of the tree store that ,so how i will do that look at query now.
+//Time complexity  : Build( O(n)) ,  query( log(n))  ,  update( log(n))
 public class SegTreeRSmQ {
 
     public static void main(String[] args) {
@@ -42,7 +44,7 @@ class SGTreeRSumQ {
         // [l low high r]
         if (low >= l && high <= r)
             return seg[ind];
-
+        //overlap
         int mid = (low + high) >> 1;
         int left = query(2 * ind + 1, low, mid, l, r);
         int right = query(2 * ind + 2, mid + 1, high, l, r);
